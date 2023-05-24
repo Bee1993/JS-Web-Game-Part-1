@@ -9,11 +9,9 @@ function newImage(url, left, bottom){
 }
 
 function newItem(url, left, bottom){
-    let object = newImage(url, left, bottom)
-
-    object.addEventListener('dblclick', () => {
-        object.remove()
-    })
+let object = newImage(url, left, bottom)
+object.addEventListener('dblclick', () => {
+        object.remove()})
 }
 
 newImage('assets/green-character.gif', 100, 100)
