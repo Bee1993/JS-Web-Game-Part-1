@@ -1,3 +1,13 @@
+function newImage(){
+    let object = document.createElement('img')
+    object.src = 
+    object.style.position = 'fixed'
+    object.style.left = left + 'px'
+    object.style.bottom = bottom + 'px'
+    document.body.append(object)
+    return object  
+}
+
 let greenCharacter = document.createElement('img')
 greenCharacter.src = 'assets/green-character.gif'
 greenCharacter.style.position = 'fixed'
